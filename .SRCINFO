@@ -11,7 +11,9 @@ pkgbase = android-camerarecorder-git
 	makedepends = make
 	makedepends = curl
 	makedepends = jq
+	depends = android-recorder
 	depends = libcrash-bash
+	depends = record-tools
 	depends = tsu
 	provides = android-camerarecorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g2b2d2ee8d18ffc62443d3ea87c97974ba759466a
 	conflicts = android-camerarecorder
