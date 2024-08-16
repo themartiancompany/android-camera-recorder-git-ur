@@ -1,8 +1,8 @@
-pkgbase = android-camerarecorder-git
+pkgbase = android-camera-recorder-git
 	pkgdesc = Android camera recorder.
 	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g2b2d2ee8d18ffc62443d3ea87c97974ba759466a
 	pkgrel = 1
-	url = https://github.com/themartiancompany/android-camerarecorder
+	url = https://github.com/themartiancompany/android-camera-recorder
 	arch = any
 	groups = hip
 	groups = hip-git
@@ -15,9 +15,9 @@ pkgbase = android-camerarecorder-git
 	depends = libcrash-bash
 	depends = record-tools
 	depends = tsu
-	provides = android-camerarecorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g2b2d2ee8d18ffc62443d3ea87c97974ba759466a
-	conflicts = android-camerarecorder
-	source = android-camerarecorder.tar.gz::https://github.com/themartiancompany/android-camerarecorder/archive/refs/heads/master.tar.gz
+	provides = android-camera-recorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g2b2d2ee8d18ffc62443d3ea87c97974ba759466a
+	conflicts = android-camera-recorder
+	source = android-camera-recorder.tar.gz::https://github.com/themartiancompany/android-camera-recorder/archive/refs/heads/master.tar.gz
 	sha256sums = SKIP
 
-pkgname = android-camerarecorder-git
+pkgname = android-camera-recorder-git
